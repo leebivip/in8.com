@@ -1,0 +1,181 @@
+body {
+    overflow-x: hidden;
+    /*background-color: #233140;*/
+}
+
+p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #1b21ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*text-transform: uppercase;*/
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-weight: 700;*/
+}
+
+.lighterfont {
+    font-weight: lighter;
+    font-size: .75em;
+}
+
+
+.navbar {
+    /*text-transform: uppercase;*/
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    opacity: 0.85;
+    background-color: #233140;
+    /*font-weight: 700;*/
+}
+
+
+/*This should be updating the background color of the navbar, but it's not.*/
+/*.navbar-default {background-color: #233140;}*/
+
+
+
+/* "Details" is the main content on the page */
+.main-content {
+    /*text-align: center;*/
+    color: #000;
+}
+
+    .main-container {
+        text-align: center;
+        padding-top: 75px;
+        /*padding-bottom: 50px;*/
+    }
+
+    .main-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        /*margin-bottom: 50px;*/
+    }
+
+    .main-coming-soon {
+        display: block;
+        /*text-transform: uppercase;*/
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 2em;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center;
+    }
+        .main-coming-soon-desc {
+            display: block;
+            font-size: 1.25em;
+            font-weight: 300;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+/* This will hide the menu dropdown in the navbar when the screen is made smaller */
+@media(max-width:768px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+
+    .main-coming-soon {
+        font-size: 4.75em;
+    }
+    .main-coming-soon-desc {
+        font-size: 1.75em;
+    }
+}
+
+#contact {
+    background: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    opacity: 0.95;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+.contact-div {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contactUs {
+
+}
+
+#contactForm {
+    padding-left: 20px;
+    max-width: 475px;
+}
+
+.form-control {
+    max-width: 450px;
+    margin-left: 0;
+}
+
+
+
+.control-group {
+    width: 100%;
+}
+
+/*MailChimp Styling*/
+#mc_embed_signup {
+    margin-top: 100px;
+    background:#C0C0C0;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+.mailchimp-button {
+    border: 1px solid #233140;
+}
+
+
+
+footer {
+    color: #fff;
+}
+
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
